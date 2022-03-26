@@ -4,13 +4,13 @@ import (
 	"context"
 	"encoding/json"
 
-	sdkStudio "github.com/RJPearson94/twilio-sdk-go/studio"
-	"github.com/RJPearson94/twilio-sdk-go/studio/flow"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/structure"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
+	sdkStudio "github.com/timworks/twilio-sdk-go/studio"
+	"github.com/timworks/twilio-sdk-go/studio/flow"
 )
 
 func dataSourceStudioFlowDefinition() *schema.Resource {

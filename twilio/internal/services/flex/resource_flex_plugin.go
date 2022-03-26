@@ -7,17 +7,17 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/RJPearson94/terraform-provider-twilio/twilio/common"
-	"github.com/RJPearson94/terraform-provider-twilio/twilio/utils"
-	flex "github.com/RJPearson94/twilio-sdk-go/service/flex/v1"
-	"github.com/RJPearson94/twilio-sdk-go/service/flex/v1/plugin"
-	"github.com/RJPearson94/twilio-sdk-go/service/flex/v1/plugin/versions"
-	"github.com/RJPearson94/twilio-sdk-go/service/flex/v1/plugins"
-	sdkUtils "github.com/RJPearson94/twilio-sdk-go/utils"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/customdiff"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
+	"github.com/timworks/terraform-provider-twilio/twilio/common"
+	"github.com/timworks/terraform-provider-twilio/twilio/utils"
+	flex "github.com/timworks/twilio-sdk-go/service/flex/v1"
+	"github.com/timworks/twilio-sdk-go/service/flex/v1/plugin"
+	"github.com/timworks/twilio-sdk-go/service/flex/v1/plugin/versions"
+	"github.com/timworks/twilio-sdk-go/service/flex/v1/plugins"
+	sdkUtils "github.com/timworks/twilio-sdk-go/utils"
 )
 
 func resourceFlexPlugin() *schema.Resource {

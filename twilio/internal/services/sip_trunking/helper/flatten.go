@@ -1,8 +1,8 @@
 package helper
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/service/trunking/v1/trunk"
-	"github.com/RJPearson94/twilio-sdk-go/service/trunking/v1/trunk/phone_number"
+	"github.com/timworks/twilio-sdk-go/service/trunking/v1/trunk"
+	"github.com/timworks/twilio-sdk-go/service/trunking/v1/trunk/phone_number"
 )
 
 func FlattenRecording(recording trunk.FetchTrunkRecordingResponse) *[]interface{} {

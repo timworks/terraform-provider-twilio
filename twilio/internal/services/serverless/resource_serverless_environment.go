@@ -6,12 +6,12 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/RJPearson94/terraform-provider-twilio/twilio/common"
-	"github.com/RJPearson94/terraform-provider-twilio/twilio/utils"
-	"github.com/RJPearson94/twilio-sdk-go/service/serverless/v1/service/environments"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
+	"github.com/timworks/terraform-provider-twilio/twilio/common"
+	"github.com/timworks/terraform-provider-twilio/twilio/utils"
+	"github.com/timworks/twilio-sdk-go/service/serverless/v1/service/environments"
 )
 
 func resourceServerlessEnvironment() *schema.Resource {

@@ -1,7 +1,7 @@
 package helper
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/service/api/v2010/account/sip/domain"
+	"github.com/timworks/twilio-sdk-go/service/api/v2010/account/sip/domain"
 )
 
 func FlattenEmergency(resp *domain.FetchDomainResponse) *[]interface{} {

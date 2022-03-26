@@ -6,18 +6,18 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/RJPearson94/terraform-provider-twilio/twilio/common"
-	"github.com/RJPearson94/terraform-provider-twilio/twilio/internal/services/phone_number/helper"
-	"github.com/RJPearson94/terraform-provider-twilio/twilio/utils"
-	"github.com/RJPearson94/twilio-sdk-go/service/api/v2010/account/available_phone_number/local"
-	"github.com/RJPearson94/twilio-sdk-go/service/api/v2010/account/available_phone_number/mobile"
-	"github.com/RJPearson94/twilio-sdk-go/service/api/v2010/account/available_phone_number/toll_free"
-	"github.com/RJPearson94/twilio-sdk-go/service/api/v2010/account/incoming_phone_number"
-	"github.com/RJPearson94/twilio-sdk-go/service/api/v2010/account/incoming_phone_numbers"
-	sdkUtils "github.com/RJPearson94/twilio-sdk-go/utils"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
+	"github.com/timworks/terraform-provider-twilio/twilio/common"
+	"github.com/timworks/terraform-provider-twilio/twilio/internal/services/phone_number/helper"
+	"github.com/timworks/terraform-provider-twilio/twilio/utils"
+	"github.com/timworks/twilio-sdk-go/service/api/v2010/account/available_phone_number/local"
+	"github.com/timworks/twilio-sdk-go/service/api/v2010/account/available_phone_number/mobile"
+	"github.com/timworks/twilio-sdk-go/service/api/v2010/account/available_phone_number/toll_free"
+	"github.com/timworks/twilio-sdk-go/service/api/v2010/account/incoming_phone_number"
+	"github.com/timworks/twilio-sdk-go/service/api/v2010/account/incoming_phone_numbers"
+	sdkUtils "github.com/timworks/twilio-sdk-go/utils"
 )
 
 func resourcePhoneNumber() *schema.Resource {

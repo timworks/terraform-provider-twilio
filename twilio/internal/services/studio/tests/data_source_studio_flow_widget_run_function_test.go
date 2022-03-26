@@ -3,9 +3,9 @@ package tests
 import (
 	"testing"
 
-	"github.com/RJPearson94/terraform-provider-twilio/twilio/internal/acceptance"
-	"github.com/RJPearson94/terraform-provider-twilio/twilio/internal/services/studio/tests/helper"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
+	"github.com/timworks/terraform-provider-twilio/twilio/internal/acceptance"
+	"github.com/timworks/terraform-provider-twilio/twilio/internal/services/studio/tests/helper"
 )
 
 func TestAccDataSourceTwilioStudioFlowWidgetRunFunction_basic(t *testing.T) {

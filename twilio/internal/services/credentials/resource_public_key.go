@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/RJPearson94/terraform-provider-twilio/twilio/common"
-	"github.com/RJPearson94/terraform-provider-twilio/twilio/utils"
-	"github.com/RJPearson94/twilio-sdk-go/service/accounts/v1/credentials/public_key"
-	"github.com/RJPearson94/twilio-sdk-go/service/accounts/v1/credentials/public_keys"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
+	"github.com/timworks/terraform-provider-twilio/twilio/common"
+	"github.com/timworks/terraform-provider-twilio/twilio/utils"
+	"github.com/timworks/twilio-sdk-go/service/accounts/v1/credentials/public_key"
+	"github.com/timworks/twilio-sdk-go/service/accounts/v1/credentials/public_keys"
 )
 
 func resourceCredentialsPublicKey() *schema.Resource {

@@ -6,13 +6,13 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/RJPearson94/terraform-provider-twilio/twilio/common"
-	"github.com/RJPearson94/terraform-provider-twilio/twilio/internal/services/proxy/helper"
-	"github.com/RJPearson94/terraform-provider-twilio/twilio/utils"
-	"github.com/RJPearson94/twilio-sdk-go/service/proxy/v1/service/phone_number"
-	"github.com/RJPearson94/twilio-sdk-go/service/proxy/v1/service/phone_numbers"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
+	"github.com/timworks/terraform-provider-twilio/twilio/common"
+	"github.com/timworks/terraform-provider-twilio/twilio/internal/services/proxy/helper"
+	"github.com/timworks/terraform-provider-twilio/twilio/utils"
+	"github.com/timworks/twilio-sdk-go/service/proxy/v1/service/phone_number"
+	"github.com/timworks/twilio-sdk-go/service/proxy/v1/service/phone_numbers"
 )
 
 func resourceProxyPhoneNumber() *schema.Resource {

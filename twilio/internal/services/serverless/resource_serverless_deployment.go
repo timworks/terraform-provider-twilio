@@ -7,12 +7,12 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/RJPearson94/terraform-provider-twilio/twilio/common"
-	"github.com/RJPearson94/terraform-provider-twilio/twilio/utils"
-	"github.com/RJPearson94/twilio-sdk-go/service/serverless/v1/service/environment/deployments"
-	sdkUtils "github.com/RJPearson94/twilio-sdk-go/utils"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
+	"github.com/timworks/terraform-provider-twilio/twilio/common"
+	"github.com/timworks/terraform-provider-twilio/twilio/utils"
+	"github.com/timworks/twilio-sdk-go/service/serverless/v1/service/environment/deployments"
+	sdkUtils "github.com/timworks/twilio-sdk-go/utils"
 )
 
 func resourceServerlessDeployment() *schema.Resource {

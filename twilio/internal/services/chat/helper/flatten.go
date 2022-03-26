@@ -1,6 +1,6 @@
 package helper
 
-import "github.com/RJPearson94/twilio-sdk-go/service/chat/v2/service"
+import "github.com/timworks/twilio-sdk-go/service/chat/v2/service"
 
 func FlattenNotifications(input service.FetchServiceNotificationsResponse) *[]interface{} {
 	return &[]interface{}{

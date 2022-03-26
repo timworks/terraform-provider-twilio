@@ -1,9 +1,9 @@
 package utils
 
 import (
-	sdkUtils "github.com/RJPearson94/twilio-sdk-go/utils"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/structure"
+	sdkUtils "github.com/timworks/twilio-sdk-go/utils"
 )
 
 func OptionalString(d *schema.ResourceData, key string) *string {

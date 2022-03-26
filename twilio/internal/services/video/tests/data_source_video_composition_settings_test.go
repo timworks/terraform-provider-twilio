@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/RJPearson94/terraform-provider-twilio/twilio/internal/acceptance"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
+	"github.com/timworks/terraform-provider-twilio/twilio/internal/acceptance"
 )
 
 var compositionSettingsDataSourceName = "twilio_video_composition_settings"

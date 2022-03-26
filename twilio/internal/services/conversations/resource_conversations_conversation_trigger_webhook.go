@@ -6,13 +6,13 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/RJPearson94/terraform-provider-twilio/twilio/common"
-	"github.com/RJPearson94/terraform-provider-twilio/twilio/utils"
-	"github.com/RJPearson94/twilio-sdk-go/service/conversations/v1/service/conversation/webhook"
-	"github.com/RJPearson94/twilio-sdk-go/service/conversations/v1/service/conversation/webhooks"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
+	"github.com/timworks/terraform-provider-twilio/twilio/common"
+	"github.com/timworks/terraform-provider-twilio/twilio/utils"
+	"github.com/timworks/twilio-sdk-go/service/conversations/v1/service/conversation/webhook"
+	"github.com/timworks/twilio-sdk-go/service/conversations/v1/service/conversation/webhooks"
 )
 
 func resourceConversationsConversationTriggerWebhook() *schema.Resource {

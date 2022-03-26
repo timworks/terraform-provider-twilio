@@ -10,18 +10,18 @@ import (
 	"strings"
 	"time"
 
-	"github.com/RJPearson94/terraform-provider-twilio/twilio/common"
-	"github.com/RJPearson94/terraform-provider-twilio/twilio/utils"
-	serverless "github.com/RJPearson94/twilio-sdk-go/service/serverless/v1"
-	"github.com/RJPearson94/twilio-sdk-go/service/serverless/v1/service/function"
-	"github.com/RJPearson94/twilio-sdk-go/service/serverless/v1/service/function/versions"
-	"github.com/RJPearson94/twilio-sdk-go/service/serverless/v1/service/functions"
-	sdkUtils "github.com/RJPearson94/twilio-sdk-go/utils"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/customdiff"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
 	"github.com/mitchellh/go-homedir"
+	"github.com/timworks/terraform-provider-twilio/twilio/common"
+	"github.com/timworks/terraform-provider-twilio/twilio/utils"
+	serverless "github.com/timworks/twilio-sdk-go/service/serverless/v1"
+	"github.com/timworks/twilio-sdk-go/service/serverless/v1/service/function"
+	"github.com/timworks/twilio-sdk-go/service/serverless/v1/service/function/versions"
+	"github.com/timworks/twilio-sdk-go/service/serverless/v1/service/functions"
+	sdkUtils "github.com/timworks/twilio-sdk-go/utils"
 )
 
 func resourceServerlessFunction() *schema.Resource {

@@ -5,12 +5,12 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/RJPearson94/terraform-provider-twilio/twilio/common"
-	"github.com/RJPearson94/terraform-provider-twilio/twilio/internal/acceptance"
-	"github.com/RJPearson94/terraform-provider-twilio/twilio/utils"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/acctest"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
+	"github.com/timworks/terraform-provider-twilio/twilio/common"
+	"github.com/timworks/terraform-provider-twilio/twilio/internal/acceptance"
+	"github.com/timworks/terraform-provider-twilio/twilio/utils"
 )
 
 var domainIPAccessControlListMappingResourceName = "twilio_sip_domain_ip_access_control_list_mapping"

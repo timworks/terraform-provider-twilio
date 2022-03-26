@@ -1,8 +1,8 @@
 package helper
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/service/proxy/v1/service/phone_number"
-	"github.com/RJPearson94/twilio-sdk-go/service/proxy/v1/service/short_code"
+	"github.com/timworks/twilio-sdk-go/service/proxy/v1/service/phone_number"
+	"github.com/timworks/twilio-sdk-go/service/proxy/v1/service/short_code"
 )
 
 func FlattenPhoneNumberCapabilities(capabilities *phone_number.FetchPhoneNumberCapabilitiesResponse) *[]interface{} {

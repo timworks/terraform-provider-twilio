@@ -4,7 +4,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/RJPearson94/twilio-sdk-go/service/serverless/v1/service/build"
+	"github.com/timworks/twilio-sdk-go/service/serverless/v1/service/build"
 )
 
 func FlattenAssetVersions(input *[]build.FetchAssetVersion) *[]interface{} {

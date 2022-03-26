@@ -4,13 +4,13 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/RJPearson94/terraform-provider-twilio/twilio/common"
-	"github.com/RJPearson94/terraform-provider-twilio/twilio/internal/acceptance"
-	"github.com/RJPearson94/twilio-sdk-go/service/studio/v2/flow_validation"
-	sdkStudio "github.com/RJPearson94/twilio-sdk-go/studio"
-	"github.com/RJPearson94/twilio-sdk-go/studio/flow"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
+	"github.com/timworks/terraform-provider-twilio/twilio/common"
+	"github.com/timworks/terraform-provider-twilio/twilio/internal/acceptance"
+	"github.com/timworks/twilio-sdk-go/service/studio/v2/flow_validation"
+	sdkStudio "github.com/timworks/twilio-sdk-go/studio"
+	"github.com/timworks/twilio-sdk-go/studio/flow"
 )
 
 func ValidateFlowWidget(name string) resource.TestCheckFunc {

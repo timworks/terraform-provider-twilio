@@ -3,10 +3,10 @@ package helper
 import (
 	"time"
 
-	"github.com/RJPearson94/terraform-provider-twilio/twilio/utils"
-	"github.com/RJPearson94/twilio-sdk-go/service/conversations/v1/service/configuration/notification"
-	"github.com/RJPearson94/twilio-sdk-go/service/conversations/v1/service/conversation"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
+	"github.com/timworks/terraform-provider-twilio/twilio/utils"
+	"github.com/timworks/twilio-sdk-go/service/conversations/v1/service/configuration/notification"
+	"github.com/timworks/twilio-sdk-go/service/conversations/v1/service/conversation"
 )
 
 func FlattenTimers(d *schema.ResourceData, timers conversation.FetchConversationTimersResponse) *[]interface{} {

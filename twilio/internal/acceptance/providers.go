@@ -4,8 +4,8 @@ import (
 	"os"
 	"sync"
 
-	"github.com/RJPearson94/terraform-provider-twilio/twilio"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
+	"github.com/timworks/terraform-provider-twilio/twilio"
 )
 
 type AddressDetails struct {

@@ -5,11 +5,11 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/RJPearson94/terraform-provider-twilio/twilio/common"
-	"github.com/RJPearson94/terraform-provider-twilio/twilio/internal/acceptance"
-	"github.com/RJPearson94/terraform-provider-twilio/twilio/utils"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
+	"github.com/timworks/terraform-provider-twilio/twilio/common"
+	"github.com/timworks/terraform-provider-twilio/twilio/internal/acceptance"
+	"github.com/timworks/terraform-provider-twilio/twilio/utils"
 )
 
 const phoneNumberResourceName = "twilio_sip_trunking_phone_number"

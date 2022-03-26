@@ -1,7 +1,7 @@
 package helper
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/service/api/v2010/account/incoming_phone_number"
+	"github.com/timworks/twilio-sdk-go/service/api/v2010/account/incoming_phone_number"
 )
 
 func FlattenCapabilities(resp *incoming_phone_number.FetchIncomingPhoneNumberCapabilitiesResponse) *[]interface{} {

@@ -53,7 +53,7 @@ reportcard:
 
 goreportcard-refresh:
 	@echo "==> refresh goreportcard checks"
-	curl -X POST -F "repo=github.com/RJPearson94/terraform-provider-twilio" https://goreportcard.com/checks
+	curl -X POST -F "repo=github.com/timworks/terraform-provider-twilio" https://goreportcard.com/checks
 
 generate:
 	go generate  ./...

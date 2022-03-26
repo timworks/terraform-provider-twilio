@@ -1,7 +1,7 @@
 package helper
 
 import (
-	"github.com/RJPearson94/twilio-sdk-go/service/api/v2010/account/application"
+	"github.com/timworks/twilio-sdk-go/service/api/v2010/account/application"
 )
 
 func FlattenMessaging(resp *application.FetchApplicationResponse) *[]interface{} {

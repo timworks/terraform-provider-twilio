@@ -3,8 +3,8 @@ package helper
 import (
 	"time"
 
-	"github.com/RJPearson94/twilio-sdk-go/service/flex/v1/flex_flow"
-	"github.com/RJPearson94/twilio-sdk-go/service/flex/v1/plugin_configuration/plugins"
+	"github.com/timworks/twilio-sdk-go/service/flex/v1/flex_flow"
+	"github.com/timworks/twilio-sdk-go/service/flex/v1/plugin_configuration/plugins"
 )
 
 func FlattenIntegration(integration *flex_flow.FetchFlexFlowIntegrationResponse) *[]interface{} {
